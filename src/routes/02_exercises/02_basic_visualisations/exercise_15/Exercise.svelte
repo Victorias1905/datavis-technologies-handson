@@ -18,4 +18,12 @@
       border-radius: 5px;
     }
   </style>
-  
+   
+   <head>
+  <!-- ... -->
+  <style>
+    {
+      fill: yellow;
+    }
+  </style>
+</head>

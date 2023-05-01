@@ -10,3 +10,8 @@
 	<h5>Famous soccer players:</h5>
 	<!--  -->
 </div>
+<ul>
+{#each videos as item}
+<li>{item.name} <a href=({item.url}) target="_blank" rel="noopener noreferrer">{item.url}</a></li>
+{/each}
+</ul>

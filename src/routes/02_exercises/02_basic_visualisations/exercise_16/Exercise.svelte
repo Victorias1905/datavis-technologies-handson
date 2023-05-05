@@ -6,8 +6,9 @@
     const innerHeight = height - margin.top - margin.bottom;
   </script>
   
-  <svg {width} {height}>
-    <g transform="translate({margin.left}, {margin.top})">
+  <svg viewBox="0 0 100 100">
+  
+    <g transform="translate(5,5)">
       <circle cx={innerWidth / 2} cy={innerHeight / 2} r="20" fill="teal" />
     </g>
   </svg>
